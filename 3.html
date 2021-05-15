@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Lists</title>
+
+		<link rel="stylesheet" href="css/design.css">
+	<style>
+		h1
+		{
+			text-decoration:underline;
+			text-align: center;
+		}
+		#one
+		{
+			list-style-type: decimal;
+		}
+		#two
+		{
+			list-style-type: lower-alpha;
+		}
+		#three
+		{
+			list-style-type: upper-roman;
+		}
+		#four
+		{
+			list-style-type: disc;
+		}
+		#five
+		{
+			list-style-type: square;
+		}
+		.size
+		{
+			font-size:30px;
+			color:lightblue;
+		}
+	</style>
+	</head>
+	
+<body>
+		
+		<h1>Ordered Lists</h1>
+	
+	<!--<ol> default=1-->
+		
+		<ol id="one" start=101>
+			<li>One</li>
+			<li>Two</li>
+		</ol>
+		
+		<ol id="two" start=25>
+			<li>One</li>
+			<li>Two</li>
+		</ol>
+		
+		<ol id="three" start=10>
+			<li>One</li>
+			<li>Two</li>
+
+	<br><br>
+	
+		<h1>Unordered Lists</h1>
+		
+	<!--<ul> default=disc-->	
+		
+		<ul class="size" id="four">
+			<li>Disc</li>
+		</ul>
+		
+		<ul class="size" id="five">
+			<li>Square</li>
+		</ul>
+
+
+	<br><br>
+	
+		<h1>Definition Lists</h1>
+		
+	<!--<dl>-->	
+		
+		<dl>
+			<dt>Coffee</dt>				<!--definition term-->
+			<dd>Black hot drink</dd>	<!--defining definition-->
+			<dt>Milk</dt>
+			<dd>White cold drink</dd>
+		</dl>
+
+</body>
+</html>

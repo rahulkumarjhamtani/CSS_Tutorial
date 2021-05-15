@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables & Links</title>
+    <style>
+        body
+        {
+            color:white;
+            font-size:20px;
+            background-color: black;
+        }
+        td
+        {
+            border:2px solid rgb(148, 199, 245);
+            border-radius: 15px; 
+        }
+        a
+        {
+            text-decoration:none ;
+        }
+
+        /* unvisited link */
+        a:link {
+        color:rgb(255, 255, 255);
+        }
+
+        /* visited link */
+        a:visited {
+        color: rgb(255, 97, 97);
+        }
+
+        /* mouse over link */
+        a:hover {
+        color: aqua;
+        }
+
+        /* selected link */
+        a:active {
+        color: blue;
+        }
+        
+        td:hover
+        {
+            border:2px solid rgb(2, 92, 170);
+            color:aqua;
+            background-color:rgb(131, 126, 134);
+            opacity: 0.9;
+        }
+        table
+        {
+            /* background-color: darkred; */
+            border-top:5px dashed rgb(216, 108, 108);
+            border-left:7px solid rgb(209, 12, 12);
+            background-image: url("img/earth.jpg");
+            width: 95%;
+            height:200px;
+            font-family: cursive;
+            caption-side: bottom;
+            margin:2% 1% 0% 1%;
+            box-shadow: 15px 6px greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <!--<table>-->
+		
+	<table cellspacing=10px cellpadding=10px>
+	
+        <!--<caption>-->
+            <caption>This is my Table</caption>
+        
+            <tr>							<!--table row-->
+                <th>Name</th>				<!--table heading-->
+                <th colspan=2>Subject</th>
+                <th>Class</th>
+            </tr>
+        
+            <tr>
+                <td><a href="https://rahulkumarjhamtani.github.io">Rahul</a></td>				<!--table data-->
+                <td rowspan=2>Science</td>
+                <td>Maths</td>
+                <td>12th</td>
+            </tr>
+            
+            <tr>
+                <td>Divyanshu</td>			<!--table data-->
+                <td>Biology</td>
+                <td>12th</td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+        <!-- <a> -->
+
+            <ul>
+                <a href="/"><li>Link 1</li></a>
+                <a href="#"><li>Link 2</li></a>
+                <a href="index.html"><li>Index</li></a>
+                <a href="../HTML_Tutorial/3.html"><li>Lists</li></a>
+                <a href="https://www.amazon.in/"><li>Amazon</li></a>
+                <a href="html/demo.html"><li>Inside Folder</li></a>
+                <a href="F:\desktop-25-01-2021\Practice\Web\HTML_Tutorial/4.html"><li>Images</li></a>  
+                <!-- not recommended -->
+                <a href="https://www.netflix.com/in/" target="_blank"><li>Netflix</li></a>
+                <a href="#" target="display"><li>Tab</li></a>
+            </ul> 
+            
+            
+</body>
+</html>
